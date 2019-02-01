@@ -8,21 +8,24 @@ class User extends CI_Model{
         $this->collegename = 'collegename';
         $this->mobilenumber = "mobilenumber";
     }
+
     public function checkUser($data = array()){
         $this->db->select($this->primaryKey);
         $this->db->from($this->tableName);
-        $this->db->where(array('oauth_provider'=>$data['oauth_provider'],'oauth_uid'=>$data['oauth_uid']));
+        $this->db->where(array('email'=>$data['email']));
         $prevQuery = $this->db->get();
         $prevCheck = $prevQuery->num_rows();
 
         if($prevCheck > 0){
+            /**
             $prevResult = $prevQuery->row_array();
             $data['modified'] = date("Y-m-d H:i:s");
             //additional by jilvin -- start
             //additional by jilvin -- end
             $update = $this->db->update($this->tableName,$data,array('id'=>$prevResult['id']));
+            */
             $userID = $prevResult['id'];
-        }else{
+        } else {
             $data['created'] = date("Y-m-d H:i:s");
             $data['modified'] = date("Y-m-d H:i:s");
             //additional by jilvin -- start
@@ -100,20 +103,32 @@ class User extends CI_Model{
       $this->db->where('email', $email);
       $result = $this->db->get('users');
       $data = $result->result_array();
-    if($result->num_rows() > 0){
-        /*
-         * the email already exists
-         * */
-         if($data[0]['oauth_provider']=="google")
-         {
-        return '1g';
+      if($result->num_rows() > 0){
+          /*
+           * the email already exists
+           * */
+           if($data[0]['oauth_provider']=="google")
+           {
+          return '1g';
+        }
+        else{
+          return '1f';
+        }
+      }else{
+       return 0;
       }
-      else{
-        return '1f';
-      }
-    }else{
-     return 0;
     }
+
+    public function authenticate($email, $password) {
+      $this->db->where('email', $email);
+      $result = $this->db->get('users');
+      $data = $result->result_array();
+
+      if($result->num_rows() > 0){
+        return password_verify($password, $data[0]['password']);
+      } else {
+        return 0;
+      }
     }
 
     public function addMoreDetails($id,$collegename,$mobilenumber){

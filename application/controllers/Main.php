@@ -122,7 +122,7 @@ class Main extends CI_Controller {
 		$totalnumberoflevels = 30;//important -- update here always.
 		$fakesets = 1; //important never change this value even if you add more fakesets
 
-		$json = file_get_contents('https://cryptex.drishticet.org/timersetting.php');
+		$json = '{"starttime":"2019-02-01 00:00:00", "endtime":"2019-02-08 12:00:00"}';
 		//var_dump(json_decode($json, true));
 		$obj = json_decode($json);
 		//if else ladder -- start

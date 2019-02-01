@@ -19,12 +19,12 @@ class User_authentication extends CI_Controller
 
         if (count($_POST) == 2) {
           $userData['email'] = $this->input->post('email');
-          $userData['password'] = password_hash($this->input->post('password'));
 
-          if ($this->User->authenticate($userData['email'], $userData['password'])) {
+          if ($this->User->authenticate($userData['email'], $this->input->post('password'))) {
             // Insert or update user data
             $userID = $this->User->checkUser($userData);
             $userData['id'] = $userID;
+
             if(!empty($userID)){
               $data['level'] = $this->User->returnLevel($userID);
               $data['levelcheckintime'] = $this->User->returnLevelCheckInTime($userID);
@@ -37,7 +37,14 @@ class User_authentication extends CI_Controller
               $data['userData'] = array();
             }
 
+            $userInfo = $this->User->returnUserdata($userID);
+
+            $userData['first_name'] = $userInfo['first_name'];
+            $userData['last_name'] = $userInfo['last_name'];
+
             $this->session->set_userdata('userData', $userData);
+
+            redirect('/game');
           } else {
             $data['msg'] = [
               'text' => 'Email/password wrong'
@@ -52,6 +59,8 @@ class User_authentication extends CI_Controller
           $userData['email'] = $this->input->post('email');
           $userData['password'] = password_hash($this->input->post('password'), PASSWORD_DEFAULT);
           $userData['gender'] = $this->input->post('gender');
+          $userData['collegename'] = $this->input->post('collegename');
+          $userData['mobilenumber'] = $this->input->post('mobilenumber');
           $userData['locale'] = 'en';
           $userData['picture_url'] = 'https://www.gravatar.com/avatar/' . md5($userData['email']);
 
@@ -79,11 +88,13 @@ class User_authentication extends CI_Controller
           }
         } else if($this->session->userdata('userData')){
           $userData = $this->session->userdata('userData');
+          $userID = $userData['id'];
 
-          $data['level'] = $this->User->returnLevel($userID);
-          $data['levelcheckintime'] = $this->User->returnLevelCheckInTime($userID);
-          $data['collegename'] = $this->User->returnCollegeName($userID);
-          $data['mobilenumber'] = $this->User->returnMobileNumber($userID);
+          $userData['level'] = $this->User->returnLevel($userID);
+          $userData['levelcheckintime'] = $this->User->returnLevelCheckInTime($userID);
+          $userData['collegename'] = $this->User->returnCollegeName($userID);
+          $userData['mobilenumber'] = $this->User->returnMobileNumber($userID);
+
           $data['userData'] = $userData;
         }
 

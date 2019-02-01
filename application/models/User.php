@@ -3,6 +3,8 @@ class User extends CI_Model{
     function __construct() {
         $this->tableName = 'users';
         $this->primaryKey = 'id';
+        $this->first_name = 'first_name';
+        $this->last_name = 'last_name';
         $this->level = 'level';
         $this->levelcheckintime = 'levelcheckintime';
         $this->collegename = 'collegename';
@@ -17,8 +19,8 @@ class User extends CI_Model{
         $prevCheck = $prevQuery->num_rows();
 
         if($prevCheck > 0){
-            /**
             $prevResult = $prevQuery->row_array();
+            /**
             $data['modified'] = date("Y-m-d H:i:s");
             //additional by jilvin -- start
             //additional by jilvin -- end
@@ -37,6 +39,14 @@ class User extends CI_Model{
         }
 
         return $userID?$userID:FALSE;
+    }
+
+    public function returnUserdata($id) {
+      $this->db->where('id', $id);
+      $result = $this->db->get($this->tableName);
+      $data = $result->result_array();
+
+      return $data[0];
     }
 
     public function returnLevel($id){

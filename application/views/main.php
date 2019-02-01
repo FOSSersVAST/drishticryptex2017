@@ -11,7 +11,7 @@
   echo base_url();
   ?>assets/favicon.png">
 
-  <title>Drishti CrypTux 2017</title>
+  <title>Vyvidh CrypTux 2019</title>
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -31,16 +31,16 @@
 <div id="site-overlay">
   <?php $this->view('menu'); ?>
 <div id="homecontainer" class="container">
-      <h1 class="cover-heading">You have the key.</h1>
-      <p class="lead">Now unleash the beautiful mystery.</p>
+      <h1 class="cover-heading">CrypTux</h1>
+      <p class="lead">Help Tux solve the mystery.</p>
       <p class="lead" id="signin">
         <a href="./user_authentication" class="btn btn-lg btn-default">Sign in</a>
       </p>
-      <a href="http://www.drishticet.org"><div id="drishtilogo">
+      <a href="http://vyvidh.vidyaacademy.ac.in/"><div id="drishtilogo">
       </div></a>
     <div class="mastfoot">
       <div class="inner">
-        <p style="display: inline;">Supports login using Facebook and Google accounts. Proudly powered by FOSSers VAST. </p><p style="display: inline;"><a href="https://cryptux.vidyaacademy.ac.in/privacypolicy.htm">Privacy Policy</a></p><p style="display: inline;">.</p>
+        <p style="display: inline;">Proudly powered by <a href="http://fossers.vidyaacademy.ac.in"><img src="assets/images/fossers.png" /></a>. </p>
       </div>
     </div>
 

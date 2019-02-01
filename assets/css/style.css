@@ -44,7 +44,7 @@ background-color: #0a0c19;
 
 @media screen and (min-width: 864px) {
   body#colored{
-    background-image: url("../images/image-bg.jpg");
+    background-image: url("../images/image-bg.png");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -55,7 +55,7 @@ background-color: #0a0c19;
   }
 
   #drishtilogo {
-    background-image: url("../images/drishtilogo.png");
+    background-image: url("../images/vyvidh-logo.png");
     background-repeat: no-repeat;
     background-size: contain;
     height: 106px;

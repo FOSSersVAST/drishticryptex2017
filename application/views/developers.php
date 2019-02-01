@@ -3,6 +3,90 @@
 <script src="<?php echo base_url(); ?>assets/js/run_prettify.js"></script>
 <script src="https://use.fontawesome.com/9ca4c5968b.js"></script>
   <div class="container">
+      <h2>FOSSers VAST</h2>
+      <?php
+      $devs = [
+        0 => [
+          'name' => 'Subin Siby',
+          'img' => 'subin_siby.jpg',
+          'short' => 'Undergraduate student at Vidya Academy of Science And Technology',
+          'twitter' => 'subins2000'
+        ],
+        1 => [
+          'name' => 'Liya Derby',
+          'img' => 'liya.jpg',
+          'short' => 'Undergraduate student at Vidya Academy of Science And Technology',
+        ],
+        2 => [
+          'name' => 'Anila Dinesh',
+          'img' => 'anila_dinesh.jpg',
+          'short' => 'Undergraduate student at Vidya Academy of Science And Technology',
+        ],
+        3 => [
+          'name' => 'Radhika Sharma',
+          'img' => 'radhika.jpg',
+          'short' => 'Undergraduate student at Vidya Academy of Science And Technology',
+        ]
+      ];
+      ?>
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1">
+        <?php
+        foreach ($devs as $dev) {
+        ?>
+           <div class="col-md-4 col-sm-6">
+               <div class="card-container">
+                  <div class="card">
+                      <div class="front">
+                          <div class="cover">
+                              <img src="<?php echo base_url(); ?>assets/images/forcards/cover.png"/>
+                          </div>
+                          <div class="user">
+                              <img class="img-circle" src="<?php echo base_url(); ?>assets/images/forcards/<?php echo $dev['img'];?>"/>
+                          </div>
+                          <div class="content">
+                              <div class="main">
+                                  <h3 class="name"><?php echo $dev['name'];?></h3>
+                                  <p class="profession"><?php echo $dev['pro'];?></p>
+                                  <p class="text-center"><?php echo $dev['short'];?></p>
+                              </div>
+                              <div class="footer">
+                                  <i class="fa fa-mail-forward"></i>
+                              </div>
+                          </div>
+                      </div> <!-- end front panel -->
+                      <div class="back">
+                          <div class="header">
+                              <h5 class="motto">"Coding is the new cool."</h5>
+                          </div>
+                          <div class="content">
+                              <div class="main">
+                                  <h4 class="text-center">Hello There</h4>
+                                  <p class="text-center"></p>
+                              </div>
+                          </div>
+                          <div class="footer">
+                              <div class="social-links text-center">
+                                  <?php
+                                  if (isset($dev['twitter'])) {
+                                  ?>
+                                  <a href="https://www.twitter.com/<?php echo $dev['twitter'];?>" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                                  <?php
+                                  }
+                                  ?>
+                              </div>
+                          </div>
+                      </div> <!-- end back panel -->
+                  </div> <!-- end card -->
+              </div> <!-- end card-container -->
+          </div> <!-- end col sm 3 -->
+        <?php
+        }
+        ?>
+        </div>
+      </div>
+      <h2>FOSS Cell CET</h2>
+      <p>Forked from FOSS Cell CET's Drishti Cryptex software.</p>
       <div class="row">
        <div class="col-sm-10 col-sm-offset-1">
            <div class="col-md-4 col-sm-6">

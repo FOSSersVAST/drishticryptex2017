@@ -130,8 +130,8 @@
                           <div class="footer">
                               <div class="social-links text-center">
                                   <a href="https://www.facebook.com/akshay.sebastian3" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
-                                  <!--<a href="https://www.facebook.com/drishticryptex" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
-                                  <a href="https://www.facebook.com/drishticryptex" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>-->
+                                  <!--<a href="https://www.facebook.com/drishtiCrypTux" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
+                                  <a href="https://www.facebook.com/drishtiCrypTux" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>-->
                               </div>
                           </div>
                       </div> <!-- end back panel -->
@@ -197,8 +197,8 @@
                           <div class="footer">
                               <div class="social-links text-center">
                                   <a href="https://www.facebook.com/chithra.iyer.31" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
-                                  <!--<a href="https://www.facebook.com/drishticryptex" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
-                                  <a href="https://www.facebook.com/drishticryptex" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>-->
+                                  <!--<a href="https://www.facebook.com/drishtiCrypTux" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
+                                  <a href="https://www.facebook.com/drishtiCrypTux" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>-->
                               </div>
                           </div>
                       </div> <!-- end back panel -->
@@ -264,8 +264,8 @@
                           <div class="footer">
                               <div class="social-links text-center">
                                   <a href="https://www.facebook.com/gopal.madhav.92" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
-                                  <!--<a href="https://www.facebook.com/drishticryptex" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
-                                  <a href="https://www.facebook.com/drishticryptex" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>-->
+                                  <!--<a href="https://www.facebook.com/drishtiCrypTux" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
+                                  <a href="https://www.facebook.com/drishtiCrypTux" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>-->
                               </div>
                           </div>
                       </div> <!-- end back panel -->
@@ -398,8 +398,8 @@
                           <div class="footer">
                               <div class="social-links text-center">
                                   <a href="https://www.facebook.com/joyce.varghese.1213" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
-                                  <!--<a href="https://www.facebook.com/drishticryptex" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
-                                  <a href="https://www.facebook.com/drishticryptex" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>-->
+                                  <!--<a href="https://www.facebook.com/drishtiCrypTux" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
+                                  <a href="https://www.facebook.com/drishtiCrypTux" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>-->
                               </div>
                           </div>
                       </div> <!-- end back panel -->
@@ -465,8 +465,8 @@
                           <div class="footer">
                               <div class="social-links text-center">
                                   <a href="https://www.facebook.com/mathew.george.984786" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
-                                  <!--<a href="https://www.facebook.com/drishticryptex" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
-                                  <a href="https://www.facebook.com/drishticryptex" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>-->
+                                  <!--<a href="https://www.facebook.com/drishtiCrypTux" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
+                                  <a href="https://www.facebook.com/drishtiCrypTux" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>-->
                               </div>
                           </div>
                       </div> <!-- end back panel -->

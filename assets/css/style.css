@@ -32,8 +32,10 @@ background-color: #0a0c19;
 }
 
 .mastfoot {
-    position: fixed;
+    position: relative;
     bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 #homecontainer {
@@ -156,12 +158,10 @@ body#singlecolored {
   margin-bottom: 40px;
 }
 
-#footerinner{
-  margin-top: 11px;
-}
-
 #footercol {
-    background-color: #0A0C19;
+    background-color: #CCC;
+    padding: 10px 30px;
+    color: #000;
 }
 
 #footer {

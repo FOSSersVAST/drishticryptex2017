@@ -3,11 +3,11 @@
 <div class="col-md-12 wrapper">
   <h3>About:</h3>
   <ul class="list-group">
-    <li class="list-group-item" style="background: none; border: none;">Cryptex is an online game powered by FOSS Cell CET Unit. Levels will be based on basic mathematics, logic, and cryptographic techniques.</li>
+    <li class="list-group-item" style="background: none; border: none;">CrypTux is an online game powered by <a href="http://fossers.vidyaacademy.ac.in">FOSSers VAST</a>. Levels will be based on basic mathematics, logic, and cryptographic techniques.</li>
   </ul>
   <h3>Instructions</h3>
   <ul class="list-group">
-    <li class="list-group-item" style="background: none; border: none;">Next level can be reached by typing cryptex.drishticet.org/answer .<br><br>For example,<br><br>&nbsp;&nbsp;&nbsp;&nbsp;if "root" is the answer, then you can reach the next level at cryptex.drishticet.org/root .</li>
+    <li class="list-group-item" style="background: none; border: none;">Next level can be reached by typing cryptux.vidyaacademy.ac.in/answer .<br><br>For example,<br><br>&nbsp;&nbsp;&nbsp;&nbsp;if "root" is the answer, then you can reach the next level at cryptux.vidyaacademy.ac.in/root .</li>
   </ul>
   <h3>Rules:</h3>
   <ul class="list-group">

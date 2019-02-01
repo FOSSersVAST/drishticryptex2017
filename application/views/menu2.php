@@ -15,7 +15,7 @@
         <a class="navbar-brand" href="<?php
         echo base_url();
         ?>">
-          Cryptex
+          CrypTux
         </a>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->

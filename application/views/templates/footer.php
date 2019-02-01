@@ -1,9 +1,9 @@
 <div class="container">
   <div class="row">
 <div id="footer" class="mastfoot">
-  <div id="footercol" class="col-md-12" style="margin-top: 11px;">
+  <div id="footercol" class="col-md-12">
   <div id="footerinner" class="inner">
-    <p style="display: inline;">Proudly powered by FOSS CELL CET. </p><p style="display: inline;"><a href="https://cryptex.drishticet.org/privacypolicy.htm">Privacy Policy</a></p><p style="display: inline;">.</p>
+    <p style="display: inline;">Proudly powered by <a href="http://fossers.vidyaacademy.ac.in" class="btn btn-default">FOSSers VAST</a> </p><p style="display: inline;"><a href="/privacypolicy.htm">Privacy Policy</a></p><p style="display: inline;">.</p>
   </div>
 </div>
 </div>

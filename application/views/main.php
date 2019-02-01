@@ -5,13 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <meta name="description" content="Secrets of the past is locked securely under the cryptex, beautiful innovation of the past. Only way to unleash the mystery is to set her free.">
-  <meta name="author" content="FOSS CELL CET">
+  <meta name="description" content="Secrets of the past is locked securely under the CrypTux, beautiful innovation of the past. Only way to unleash the mystery is to set her free.">
+  <meta name="author" content="FOSSers VAST">
   <link rel="icon" href="<?php
   echo base_url();
   ?>assets/favicon.png">
 
-  <title>Drishti Cryptex 2017</title>
+  <title>Drishti CrypTux 2017</title>
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -40,7 +40,7 @@
       </div></a>
     <div class="mastfoot">
       <div class="inner">
-        <p style="display: inline;">Supports login using Facebook and Google accounts. Proudly powered by FOSS CELL CET. </p><p style="display: inline;"><a href="https://cryptex.drishticet.org/privacypolicy.htm">Privacy Policy</a></p><p style="display: inline;">.</p>
+        <p style="display: inline;">Supports login using Facebook and Google accounts. Proudly powered by FOSSers VAST. </p><p style="display: inline;"><a href="https://cryptux.vidyaacademy.ac.in/privacypolicy.htm">Privacy Policy</a></p><p style="display: inline;">.</p>
       </div>
     </div>
 

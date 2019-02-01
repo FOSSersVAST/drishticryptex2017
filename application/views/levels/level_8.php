@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="https://cryptex.drishticet.org/assets/css/level_7.css" />
+<link rel="stylesheet" href="https://cryptux.vidyaacademy.ac.in/assets/css/level_7.css" />
 <div class="container">
 <div class="row">
 <div class="col-md-12 wrapper">

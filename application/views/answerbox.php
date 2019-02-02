@@ -1,4 +1,5 @@
 <div class="container">
+  <span style="font-size: 20px;margin-top: 10px;">Level <?php echo $level;?></span>
   <center>
     <form id="answer-form">
       <div class="row">

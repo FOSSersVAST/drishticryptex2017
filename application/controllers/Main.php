@@ -40,7 +40,7 @@ class Main extends CI_Controller {
 				11 => 'alexandraelbakyan',
 				12 => 'gnupg',
 				13 => 'wikisangamotsavam',
-				14 => 'enigma',
+				14 => 'icecat',
 				15 => 'idiot',
 				16 => 'royalsocietyofarts',
 				17 => 'kungfupanda',
@@ -172,7 +172,9 @@ class Main extends CI_Controller {
 							$this->load->view('templates/header');
 							$this->load->view('menu2');
 							$this->load->view('/levels/'.$viewsmatchbox[$this->User->returnLevel($this->session->userdata['userData']['id'])]);
-							$this->load->view('answerbox');
+							$this->load->view('answerbox', [
+								'level' => $this->User->returnLevel($this->session->userdata['userData']['id'])+1
+							]);
 							$this->load->view('templates/footer');
 							$this->session->set_userdata('fakeLevel','0');
 					}

@@ -1,8 +1,9 @@
-
-<style>
-body {
-    background-image: url("<?php echo base_url();?>assets/images/call_of_duty_playfair.jpg");
-}
-</style>
-
-
+<div class="container">
+<div class="row">
+<div class="col-md-12 wrapper">
+<center>
+<img src = "<?php echo base_url();?>assets/images/L13KWhjvy.jpg" />
+</center>
+</div>
+</div>
+</div>

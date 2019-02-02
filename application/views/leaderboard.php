@@ -21,26 +21,21 @@ padding-bottom: 8px;">Level Check In Time</th>-->
 $i = 1;
 $testusers = array("1","2","3","4","5","6","7","83","141");
 //define testusers here.
-foreach($userdetails->result() as $userdetails) {
-  if(in_array($userdetails->id,$testusers)){
-
-  }
-  else {
+foreach($userdetails->result() as $user) {
     echo '<tr>';
     echo '<td style="padding-top: 5px;
 padding-bottom: 5px;">'.$i.'</td>';
     //echo '<td style="padding-top: 5px; padding-bottom: 5px;">'.$userdetails->id.'</td>';
     echo '<td style="padding-top: 5px;
-padding-bottom: 5px;">'.$userdetails->first_name.' ';
-    echo $userdetails->last_name.'</td>';
+padding-bottom: 5px;">'.$user->first_name.' ';
+    echo $user->last_name.'</td>';
     echo '<td style="padding-top: 5px;
-padding-bottom: 5px;">'.$userdetails->collegename.'</td>';
+padding-bottom: 5px;">'.$user->collegename.'</td>';
     echo '<td style="padding-top: 5px;
-padding-bottom: 5px;">'.$userdetails->level.'</td>';
+padding-bottom: 5px;">'.$user->level.'</td>';
     //echo '<td style="padding-top: 5px; padding-bottom: 5px;">'.$userdetails->levelcheckintime.'</td>';
     $i = $i + 1;
     echo '</tr>';
-  }
 }?>
 </table>
 </div>

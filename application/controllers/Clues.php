@@ -9,6 +9,9 @@ class Clues extends CI_Controller
 
     public function index()
     {
-      redirect("http://fossers.vidyaacademy.ac.in/contact/");
+      $this->load->view('templates/header');
+      $this->load->view('menu2');
+      $this->load->view('clues');
+      $this->load->view('templates/footer');
     }
   }

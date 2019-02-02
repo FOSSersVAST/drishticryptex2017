@@ -1,4 +1,4 @@
-<body id="singlecolored">
+<body id="colored">
 <div class="container-fluid">
 
   <!-- Navigation -->

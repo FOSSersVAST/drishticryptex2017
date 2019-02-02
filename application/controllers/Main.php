@@ -33,7 +33,7 @@ class Main extends CI_Controller {
 				4 => 'vyvidh',
 				5 => 'larryewing',
 				6 => 'gcc',
-				7 => 'fakesubtitles',
+				7 => 'helsinki',
 				8 => 'whistlersmother',
 				9 => 'timedout',
 				10 => 'muirfield',

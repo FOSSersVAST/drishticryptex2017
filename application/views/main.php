@@ -11,7 +11,7 @@
   echo base_url();
   ?>assets/favicon.png">
 
-  <title>Vyvidh CrypTux 2019</title>
+  <title>Vyvidh CrypTux 2019 - FOSSers</title>
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -32,7 +32,7 @@
   <?php $this->view('menu'); ?>
 <div id="homecontainer" class="container">
       <h1 class="cover-heading">CrypTux</h1>
-      <p class="lead">Help Tux solve the mystery.</p>
+      <p class="lead">Help Tux find the treasure</p>
       <p class="lead" id="signin">
         <a href="./user_authentication" class="btn btn-lg btn-default">Sign in</a>
       </p>

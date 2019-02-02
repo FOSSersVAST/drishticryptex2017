@@ -11,7 +11,7 @@ padding-bottom: 8px;">User ID</th>-->
 <th style="padding-top: 8px;
 padding-bottom: 8px;">Name</th>
 <th style="padding-top: 8px;
-padding-bottom: 8px;">College Name</th>
+padding-bottom: 8px;">Institution</th>
 <th style="padding-top: 8px;
 padding-bottom: 8px;">Level</th>
 <!--<th style="padding-top: 8px;

@@ -11,7 +11,7 @@
   echo base_url();
   ?>assets/favicon.png">
 
-  <title>FOSSers CrypTux 2019</title>
+  <title>Vyvidh CrypTux 2019 - FOSSers</title>
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">

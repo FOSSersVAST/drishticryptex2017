@@ -23,7 +23,7 @@ if(isset($userData)) {
       echo '<p><b>Name : </b>' . $userData['first_name'].' '.$userData['last_name'].'</p>';
       echo '<p><b>Email : </b>' . $userData['email'].'</p>';
       //if(!empty($userData['level'])){
-      echo '<p><b>College name : </b>'.$userData['collegename'].'</p>';
+      echo '<p><b>Institution : </b>'.$userData['collegename'].'</p>';
       echo '<p><b>Current level : </b>'.$userData['level'].'</p>';
       //}
       //if(!empty($userData['levelcheckintime'])){
@@ -76,7 +76,7 @@ if(isset($userData)) {
             <input type="password" class="form-control" name="password" />
           </div>
           <div class="form-group">
-            <label>College</label><br/>
+            <label>Institution</label><br/>
             <input type="text" class="form-control" name="collegename" />
           </div>
           <div class="form-group">

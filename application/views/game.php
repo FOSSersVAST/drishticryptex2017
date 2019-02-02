@@ -9,6 +9,7 @@
   <ul class="list-group">
     <li class="list-group-item" style="background: none; border: none;">Connect the clues and type in the answer. Answer can be a single word or more. Spaces and case doesn't matter.</li>
     <li class="list-group-item" style="background: none; border: none;">Clues can be found in our <a href="http://fossers.vidyaacademy.ac.in/contact" class="btn btn-default">social media pages</a> especially Instagram & Twitter.</li>
+    <li class="list-group-item" style="background: none; border: none;">Higher levels doesn't mean hey're more difficult. Look for the easy way first, then think out of the box :)</li>
   </ul>
   <h3>Rules:</h3>
   <ul class="list-group">

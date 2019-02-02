@@ -30,7 +30,7 @@ class Main extends CI_Controller {
 				1 => 'yourbrain',
 				2 => 'drishti17',
 				3 => 'winteriscoming',
-				4 => 'themap',
+				4 => 'themapa',
 				5 => 'love',
 				6 => 'murder',
 				7 => 'fakesubtitles',
@@ -42,7 +42,7 @@ class Main extends CI_Controller {
 				13 => 'hitconfirmed',
 				14 => 'enigma',
 				15 => 'idiot',
-				16 => 'RoyalSocietyofArts',
+				16 => 'royalsocietyofarts',
 				17 => 'kungfupanda',
 				18 => 'rajdhani',
 				19 => 'frederickrussellburnham',
@@ -172,6 +172,7 @@ class Main extends CI_Controller {
 							$this->load->view('templates/header');
 							$this->load->view('menu2');
 							$this->load->view('/levels/'.$viewsmatchbox[$this->User->returnLevel($this->session->userdata['userData']['id'])]);
+							$this->load->view('answerbox');
 							$this->load->view('templates/footer');
 							$this->session->set_userdata('fakeLevel','0');
 					}

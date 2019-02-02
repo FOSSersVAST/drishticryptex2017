@@ -23,7 +23,6 @@ if(isset($userData)) {
       echo '<p><b>Name : </b>' . $userData['first_name'].' '.$userData['last_name'].'</p>';
       echo '<p><b>Email : </b>' . $userData['email'].'</p>';
       //if(!empty($userData['level'])){
-      echo '<p><b>Mobile number : </b>'.$userData['mobilenumber'].'</p>';
       echo '<p><b>College name : </b>'.$userData['collegename'].'</p>';
       echo '<p><b>Current level : </b>'.$userData['level'].'</p>';
       //}
@@ -92,7 +91,7 @@ if(isset($userData)) {
           </div>
           <div class="form-group">
             <label>College</label><br/>
-            <input type="text" class="form-control" name="college" />
+            <input type="text" class="form-control" name="collegename" />
           </div>
           <div class="form-group">
             <button type="submit" class="btn btn-default">Register</button>

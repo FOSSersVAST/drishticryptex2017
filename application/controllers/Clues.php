@@ -9,6 +9,6 @@ class Clues extends CI_Controller
 
     public function index()
     {
-      redirect("https://www.facebook.com/drishticryptex");
+      redirect("http://fossers.vidyaacademy.ac.in/contact/");
     }
   }

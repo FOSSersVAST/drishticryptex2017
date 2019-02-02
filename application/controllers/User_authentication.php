@@ -62,7 +62,7 @@ class User_authentication extends CI_Controller
           $userData['collegename'] = $this->input->post('collegename');
           $userData['mobilenumber'] = $this->input->post('mobilenumber');
           $userData['locale'] = 'en';
-          $userData['picture_url'] = 'https://www.gravatar.com/avatar/' . md5($userData['email']);
+          $userData['picture_url'] = '';
 
           if(is_null($userData['email'])) {
             redirect(emailrequired);
@@ -84,7 +84,13 @@ class User_authentication extends CI_Controller
               $data['userData'] = array();
             }
 
-            $this->session->set_userdata('userData',$userData);
+            $userInfo = $this->User->returnUserdata($userID);
+
+            $userData['first_name'] = $userInfo['first_name'];
+            $userData['last_name'] = $userInfo['last_name'];
+
+            $this->session->set_userdata('userData', $userData);
+            redirect('/game');
           }
         } else if($this->session->userdata('userData')){
           $userData = $this->session->userdata('userData');

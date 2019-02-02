@@ -31,19 +31,25 @@
 <div id="site-overlay">
   <?php $this->view('menu'); ?>
 <div id="homecontainer" class="container">
-      <h1 class="cover-heading">CrypTux</h1>
-      <p class="lead">Help Tux find the treasure</p>
-      <p class="lead" id="signin">
-        <a href="./user_authentication" class="btn btn-lg btn-default">Sign in</a>
-      </p>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="assets/images/poster.jpg" width="100%" />
+        </div>
+        <div class="col-md-8">
+          <h1 class="cover-heading">CrypTux</h1>
+          <p class="lead">Help Tux find the treasure</p>
+          <p class="lead" id="signin">
+            <a href="./user_authentication" class="btn btn-lg btn-default">Sign in</a>
+          </p>
+          <div class="mastfoot">
+            <div class="inner">
+              <p style="display: inline;">Proudly powered by <a href="http://fossers.vidyaacademy.ac.in"><img src="assets/images/fossers.png" /></a>. </p>
+            </div><br/><br/>
+          </div>
+        </div>
+      </div>
       <a href="http://vyvidh.vidyaacademy.ac.in/"><div id="drishtilogo">
       </div></a>
-    <div class="mastfoot">
-      <div class="inner">
-        <p style="display: inline;">Proudly powered by <a href="http://fossers.vidyaacademy.ac.in"><img src="assets/images/fossers.png" /></a>. </p>
-      </div>
-    </div>
-
   </div>
 </div>
   <!-- jQuery library -->

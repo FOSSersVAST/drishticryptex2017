@@ -26,13 +26,13 @@ class Main extends CI_Controller {
 	public function index()
 	{
 			$answersmatchbox = array(
-				0 => 'welcometocryptex',//changed from start -- real one
-				1 => 'yourbrain',
-				2 => 'drishti17',
-				3 => 'winteriscoming',
-				4 => 'themapa',
-				5 => 'love',
-				6 => 'murder',
+				0 => 'welcometocryptux',//changed from start -- real one
+				1 => 'vidya',
+				2 => 'ubuntu',
+				3 => 'fossers',
+				4 => 'vyvidh',
+				5 => 'larryewing',
+				6 => 'gcc',
 				7 => 'fakesubtitles',
 				8 => 'whistlersmother',
 				9 => 'timedout',

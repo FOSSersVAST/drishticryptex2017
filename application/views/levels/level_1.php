@@ -1,1 +1,6 @@
-<script src="<?php echo base_url();?>assets/js/level1.js"></script>
+<div class="container">
+  <div class="row">
+    <h3>"I am because we are"</h3>
+    <br/><br/>
+  </div>
+</div>

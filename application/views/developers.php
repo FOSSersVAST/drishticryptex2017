@@ -10,7 +10,8 @@
           'name' => 'Subin Siby',
           'img' => 'subin_siby.jpg',
           'short' => 'Undergraduate student at Vidya Academy of Science And Technology',
-          'twitter' => 'subins2000'
+          'twitter' => 'subins2000',
+          'instagram' => 'subins2000'
         ],
         1 => [
           'name' => 'Liya Derby',
@@ -71,6 +72,13 @@
                                   if (isset($dev['twitter'])) {
                                   ?>
                                   <a href="https://www.twitter.com/<?php echo $dev['twitter'];?>" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                                  <?php
+                                  }
+                                  ?>
+                                  <?php
+                                  if (isset($dev['instagram'])) {
+                                  ?>
+                                  <a href="https://www.twitter.com/<?php echo $dev['instagram'];?>" class="instagram"><i class="fa fa-instagram fa-fw"></i></a>
                                   <?php
                                   }
                                   ?>

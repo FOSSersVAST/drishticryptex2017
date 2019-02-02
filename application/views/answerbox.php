@@ -21,6 +21,7 @@
 </div>
 <script>
 window.onload = function() {
+  $('#cryptux-answer').focus();
   $('#answer-form').on('submit', function(e) {
     e.preventDefault();
     $('#checking').show();

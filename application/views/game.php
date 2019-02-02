@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" style="font-size: 22px;">
   <div class="row">
 <div class="col-md-12 wrapper">
   <h3>About:</h3>
@@ -28,7 +28,7 @@
 </ul>
   <p>The treasure is for real, but the path still not clear. The roads won’t be smooth, the journey not so easy and what awaits you, not yet known. Beware of anything and everything cause some things really count.<br></p>
   <p>Your choices pave the way. You decide your fate. Your knowledge, your hard work and your skills decide your pace. You are on your own. <br></p>
-  <p>She is waiting for you. But will you reach her?? Before time shuts her doors out?? Before anybody else take the place?? The clock is ticking and only the worthy will rise.</p>
+  <center><a href="/" class="btn btn-default" style="font-size: 30px;">Start Now</a></center>
 </div>
 </div>
 </div>

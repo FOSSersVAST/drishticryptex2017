@@ -41,8 +41,8 @@ class Main extends CI_Controller {
 				12 => 'gnupg',
 				13 => 'wikisangamotsavam',
 				14 => 'icecat',
-				15 => 'idiot',
-				16 => 'royalsocietyofarts',
+				15 => 'wikileaksimperialproject',
+				16 => 'susecon',
 				17 => 'kungfupanda',
 				18 => 'rajdhani',
 				19 => 'frederickrussellburnham',
@@ -173,7 +173,7 @@ class Main extends CI_Controller {
 							$this->load->view('menu2');
 							$this->load->view('/levels/'.$viewsmatchbox[$this->User->returnLevel($this->session->userdata['userData']['id'])]);
 							$this->load->view('answerbox', [
-								'level' => $this->User->returnLevel($this->session->userdata['userData']['id'])+1
+								'level' => $this->User->returnLevel($this->session->userdata['userData']['id'])
 							]);
 							$this->load->view('templates/footer');
 							$this->session->set_userdata('fakeLevel','0');

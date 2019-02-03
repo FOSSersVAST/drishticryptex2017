@@ -33,7 +33,7 @@
 <div id="homecontainer" class="container">
       <div class="row">
         <div class="col-md-4">
-          <img src="assets/images/poster.jpg" width="100%" />
+          <img src="/assets/images/poster.jpg" width="100%" />
         </div>
         <div class="col-md-8">
           <h1 class="cover-heading">CrypTux</h1>
@@ -43,7 +43,7 @@
           </p>
           <div class="mastfoot">
             <div class="inner">
-              <p style="display: inline;">Proudly powered by <a href="http://fossers.vidyaacademy.ac.in"><img src="assets/images/fossers.png" /></a>. </p>
+              <p style="display: inline;">Proudly powered by <a href="http://fossers.vidyaacademy.ac.in"><img src="/assets/images/fossers.png" /></a>. </p>
             </div><br/><br/>
           </div>
         </div>

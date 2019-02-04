@@ -1,14 +1,11 @@
 <div class = "container">
-<div class = "row">
-
-<!-- Bob to Alice -->
-
-<!-- "Somebody is following you, breaking our ciphers" -->
-
-<!-- "So I have made sure that the encryptions are harder" -->
-
-<div class = "col-md-12 wrapper">
-<img src = "<?php echo base_url();?>assets/images/board.jpg" />
-</div>
-</div>
+  <div class = "row">
+    <div class = "col-md-12 wrapper">
+      <center>
+        <a href="<?php echo base_url();?>assets/images/L16kwoieMc.jpg" target="_blank">
+          <img src = "<?php echo base_url();?>assets/images/L16kwoieMc.jpg" width="600" />
+        </a>
+      </center>
+    </div>
+  </div>
 </div>

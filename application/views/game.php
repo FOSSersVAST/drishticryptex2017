@@ -3,12 +3,12 @@
 <div class="col-md-12 wrapper">
   <h3>About:</h3>
   <ul class="list-group">
-    <li class="list-group-item" style="background: none; border: none;">CrypTux is an online game powered by <a href="http://fossers.vidyaacademy.ac.in">FOSSers VAST</a>. Levels will be based on basic mathematics, logic, and cryptographic techniques.</li>
+    <li class="list-group-item" style="background: none; border: none;">CrypTux is an online game powered by <a href="http://fossers.vidyaacademy.ac.in">FOSSers VAST</a>. Levels will be based on basic mathematics, <a href="https://en.wikipedia.org/wiki/Free_software">FOSS</a>, logic, and cryptographic techniques.</li>
   </ul>
   <h3>Instructions</h3>
   <ul class="list-group">
-    <li class="list-group-item" style="background: none; border: none;">Connect the clues and type in the answer. Answer can be a single word or more. Spaces and case doesn't matter.</li>
-    <li class="list-group-item" style="background: none; border: none;">Clues can be found in our <a href="http://fossers.vidyaacademy.ac.in/contact" class="btn btn-default">social media pages</a> especially Instagram & Twitter.</li>
+    <li class="list-group-item" style="background: none; border: none;">Connect the clues and type in the answer. Answer can be a single word or more. Spaces and case doesn't matter. Use the <b>internet</b>, <b>wikipedia</b> and search engines to solve it !</li>
+    <li class="list-group-item" style="background: none; border: none;">Clues can be found in our <a href="http://fossers.vidyaacademy.ac.in/contact" class="btn btn-default">social media pages</a> especially Instagram, Telegram & Twitter.</li>
     <li class="list-group-item" style="background: none; border: none;">Higher levels doesn't mean they're more difficult. Look for the easy way first, then think out of the box :)</li>
   </ul>
   <h3>Rules:</h3>

@@ -43,7 +43,7 @@ class Main extends CI_Controller {
 				14 => 'icecat',
 				15 => 'wikileaksimperialproject',
 				16 => 'susecon',
-				17 => 'kungfupanda',
+				17 => 'qt',
 				18 => 'rajdhani',
 				19 => 'frederickrussellburnham',
 				20 => 'bushfires',

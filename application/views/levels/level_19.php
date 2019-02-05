@@ -1,16 +1,11 @@
-<div class="container">
-  <div class="row">
-<div class="col-md-12 wrapper">
-
-<!-- The Spy -->
-
-<!-- "Will mistakes be made here??" -->
-
-<!-- "What cipher is this??" -->
-
-<!-- "Mistakes are there not only in the dates but.." -->
-
-<img src="<?php echo base_url();?>assets/images/gfhd.jpg"  style="width:px;height:528px;">
-</div>
-</div>
+<div class = "container">
+  <div class = "row">
+    <div class = "col-md-12 wrapper">
+      <center>
+        <a href="<?php echo base_url();?>assets/images/L19cnmCeU.jpg" target="_blank">
+          <img src="<?php echo base_url();?>assets/images/L19cnmCeU.jpg" width="600" />
+        </a>
+      </center>
+    </div>
+  </div>
 </div>

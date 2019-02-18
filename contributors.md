@@ -1,4 +1,11 @@
-### Drishti Cryptex 2017 Team
+## CrypTux Team
+
+* Subin Siby
+* Radhika Sharma
+* Anila Dinesh
+* Liya Derby
+
+## Drishti Cryptex 2017 Team
 
 Abhishek Nambiar
 

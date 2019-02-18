@@ -1,8 +1,11 @@
-<div class="container">
-<img src = "<?php echo base_url();?>assets/images/rsa.jpg" />
-
-<!-- Bob -->
-
-<!-- (e,n) = (608131,1600000240000009) -->
-
+<div class = "container">
+  <div class = "row">
+    <div class = "col-md-12 wrapper">
+      <center>
+        <a href="<?php echo base_url();?>assets/images/L20KWlcoe.jpg" target="_blank">
+          <img src="<?php echo base_url();?>assets/images/L20KWlcoe.jpg" width="600" />
+        </a>
+      </center>
+    </div>
+  </div>
 </div>

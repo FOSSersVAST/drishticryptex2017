@@ -47,7 +47,7 @@ class Main extends CI_Controller {
 				18 => 'celestia',
 				19 => 'benevolentdictatorforlife',
 				20 => 'cve',
-				21 => 'prime',
+				21 => 'linuxchix',
 				22 => 'vilhjalmureinarsson',
 				23 => 'goandfindher',
 				24 => 'sparta',
@@ -122,7 +122,7 @@ class Main extends CI_Controller {
 		$totalnumberoflevels = 30;//important -- update here always.
 		$fakesets = 1; //important never change this value even if you add more fakesets
 
-		$json = '{"starttime":"2019-02-01 00:00:00", "endtime":"2019-02-08 12:00:00"}';
+		$json = '{"starttime":"2019-02-01 00:00:00", "endtime":"2019-02-07 20:00:00"}';
 		//var_dump(json_decode($json, true));
 		$obj = json_decode($json);
 		//if else ladder -- start

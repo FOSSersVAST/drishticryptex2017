@@ -12,3 +12,5 @@ http://cryptux.vidyaacademy.ac.in/
 ### Contributors
 
 See contributors.md file for list of contributors.
+
+This is a fork of [FOSS Cell CET's drishticryptex2017](https://github.com/fosscellcet/drishticryptex2017) [MIT License]. Thanks to them!
